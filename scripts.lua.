@@ -1,0 +1,20 @@
+SCRIPTS = {}
+
+function addScript(name, path)
+    table.insert(SCRIPTS, {
+        name = name,
+        path = path
+    })
+end
+
+function listScripts()
+    print("ARLECCHINO SCRIPT LIBRARY")
+
+    for i, script in ipairs(SCRIPTS) do
+        print(i .. ". " .. script.name)
+    end
+end
+
+function clearScripts()
+    SCRIPTS = {}
+end

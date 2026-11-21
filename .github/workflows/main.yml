@@ -1,8 +1,5 @@
-name: Build ARLECCHINO 2208 APK
-
-on:
+"on":
   workflow_dispatch:
-
 jobs:
   build:
     runs-on: ubuntu-latest

@@ -1,0 +1,9 @@
+local function showMenu()
+    print("🥀 GAME GUARDIAN ARLECCHINO")
+    print("1. Scripturi")
+    print("2. Setări")
+    print("3. Despre")
+    print("4. Ieșire")
+end
+
+showMenu()

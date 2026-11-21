@@ -1,4 +1,6 @@
-"on":
+name: Build ARLECCHINO 2208 APK
+
+on:
   workflow_dispatch:
 jobs:
   build:
